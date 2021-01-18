@@ -1,0 +1,27 @@
+{
+	"color_scheme": "Packages/Monokai++/themes/Monokai++.tmTheme",
+	"font_face": "Fira Code",
+	"font_size": 8,
+	// "font_options":
+	// [
+	// 	"Code New Roman",
+	// 	"Dank Mono",
+	// 	"Consolas",
+	// 	"Fira Code",
+	// 	"Simplon Mono",
+	// 	"Fantasque Sans Mono",
+	// 	"Roboto Mono",
+	// 	"Victor Mono",
+	// 	"Operator Mono Medium"
+	// ],
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_numbers": true,
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"margin": 4,
+	"scroll_speed": 0.5,
+	"theme": "Adaptive.sublime-theme",
+}

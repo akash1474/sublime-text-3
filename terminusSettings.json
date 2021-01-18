@@ -1,0 +1,152 @@
+{
+	"256color": false,
+	"debug": false,
+	"theme":"user",
+	"default_config":
+	{
+		"linux": null,
+		"osx": null,
+		"windows": "Command Prompt"
+	},
+	"max_columns": 500,
+	"min_columns": 20,
+	"natural_keyboard": true,
+	"preserve_keys":
+	[
+	],
+	"scrollback_history_size": 10000,
+	"shell_configs":
+	[
+		{
+			"cmd":
+			[
+				"bash",
+				"-i",
+				"-l"
+			],
+			"enable": true,
+			"env":
+			{
+			},
+			"name": "Bash",
+			"platforms":
+			[
+				"linux",
+				"osx"
+			]
+		},
+		{
+			"cmd":
+			[
+				"zsh",
+				"-i",
+				"-l"
+			],
+			"enable": true,
+			"env":
+			{
+			},
+			"name": "Zsh",
+			"platforms":
+			[
+				"linux",
+				"osx"
+			]
+		},
+		{
+			"cmd": "cmd.exe",
+			"enable": true,
+			"env":
+			{
+			},
+			"name": "Command Prompt",
+			"platforms":
+			[
+				"windows"
+			]
+		},
+		{
+			"cmd": "pwsh.exe",
+			"enable": true,
+			"env":
+			{
+			},
+			"name": "PowerShell Core",
+			"platforms":
+			[
+				"windows"
+			]
+		},
+		{
+			"cmd": "powershell.exe",
+			"enable": true,
+			"env":
+			{
+			},
+			"name": "PowerShell",
+			"platforms":
+			[
+				"windows"
+			]
+		},
+		{
+			"cmd":
+			[
+				"cmd.exe",
+				"/k",
+				"%CMDER_ROOT%\\vendor\\init.bat"
+			],
+			"enable": false,
+			"env":
+			{
+			},
+			"name": "Cmder",
+			"platforms":
+			[
+				"windows"
+			]
+		},
+		{
+			"cmd": "wsl.exe",
+			"enable": true,
+			"env":
+			{
+			},
+			"name": "WSL Login Shell",
+			"platforms":
+			[
+				"windows"
+			]
+		}
+	],
+	"unix_lang": "en_US.UTF-8",
+	"unix_term": "linux",
+	"user_theme_colors":
+	{
+		"00": "#000000",
+		"01": "#ff2e58",
+		"02": "#28CC79",
+		"03": "#A0DA2F",
+		"04": "#36CBE6",
+		"05": "#a366ff",
+		"06": "#42b7ff",
+		"07": "#262626",
+		"08": "#7f7f7f",
+		"09": "#FF6351",
+		"10": "#00ff00",
+		"11": "#FFFF4D",
+		"12": "#5c5cff",
+		"13": "#ff4775",
+		"14": "#42B7FF",
+		"15": "#ffffff",
+		"background": "#262626",
+		"block_caret": "white",
+		"caret": "white",
+		"foreground": "#ffffff",
+		"selection": "#444444",
+		"selection_foreground": "#ffffff"
+	},
+	"view_settings":
+	{
+	}
+}
