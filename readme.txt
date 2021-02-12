@@ -30,3 +30,8 @@
 5]ReactJs
 6]Typescript
 7]Emmet
+
+
+/////////////// Selection Color /////////////////////
+1]Install package resource viewer
+2]Ctrl + shift +v => search prv => package resource viewer : open resources => search color scheme => themes =>
