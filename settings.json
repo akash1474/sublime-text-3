@@ -13,15 +13,34 @@
 	// 	"Roboto Mono",
 	// 	"Victor Mono",
 	// 	"Operator Mono Medium"
+	//  "MonoLisa-Light"
 	// ],
 	"ignored_packages":
 	[
-		"Vintage"
+		// "Vintage",
+		/*"C++11",*/
 	],
+    //"vintage_ctrl_keys": true,
 	"line_numbers": true,
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
 	"margin": 4,
 	"scroll_speed": 0.5,
 	"theme": "Adaptive.sublime-theme",
+	"auto_complete": true,
+	"auto_complete_triggers":
+	[
+		{
+			"characters": ".(){}[],'\"=<>/\\+-|&*%=$#@! ",
+			"selector": "source.python",
+		},
+		{
+			"characters": ":.(){}[],'\"=<>/\\+-|&*%=$#@! ",
+			"selector": "source & - source.python - constant.numeric",
+		},
+		{
+			"characters": " qazwsxedcrfvtgbyhnujmikolpQAZWSXEDCRFVTGBYHNUJMIKOLP",
+			"selector": "text",
+		}
+	],
 }

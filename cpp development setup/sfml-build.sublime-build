@@ -1,0 +1,6 @@
+{
+	"shell_cmd": "g++ ${file_name} -o ${file_base_name}.exe -I\"D:/Others/SFML-2.5.1/include\" -L\"D:/Others/SFML-2.5.1/lib\" -lsfml-graphics -lsfml-window -lsfml-system -D\"SFML_STATIC\" && ${file_base_name}.exe",
+	"selector" : "source.c++",
+	"shell": true,
+	"working_dir" : "$file_path"
+}
