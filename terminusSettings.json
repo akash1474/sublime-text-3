@@ -1,139 +1,82 @@
 {
 	"256color": false,
 	"debug": false,
-	"theme":"user",
-	"default_config":
-	{
-		"linux": null,
-		"osx": null,
+	"theme": "user",
+	"default_config": {
+		"linux": "Bash",
+		"osx": "Bash",
 		"windows": "Command Prompt"
 	},
 	"max_columns": 500,
 	"min_columns": 20,
 	"natural_keyboard": true,
-	"preserve_keys":
-	[
-	],
+	"preserve_keys": [],
 	"scrollback_history_size": 10000,
-	"shell_configs":
-	[
+	"shell_configs": [
 		{
-			"cmd":
-			[
-				"bash",
-				"-i",
-				"-l"
-			],
+			"cmd": ["bash", "-i", "-l"],
 			"enable": true,
-			"env":
-			{
-			},
+			"env": {},
 			"name": "Bash",
-			"platforms":
-			[
-				"linux",
-				"osx"
-			]
+			"platforms": ["linux", "osx","windows"]
 		},
 		{
-			"cmd":
-			[
-				"zsh",
-				"-i",
-				"-l"
-			],
+			"cmd": ["zsh", "-i", "-l"],
 			"enable": true,
-			"env":
-			{
-			},
+			"env": {},
 			"name": "Zsh",
-			"platforms":
-			[
-				"linux",
-				"osx"
-			]
+			"platforms": ["linux", "osx","windows"]
 		},
 		{
 			"cmd": "cmd.exe",
 			"enable": true,
-			"env":
-			{
-			},
+			"env": {},
 			"name": "Command Prompt",
-			"platforms":
-			[
-				"windows"
-			]
+			"platforms": ["windows"]
 		},
 		{
 			"cmd": "pwsh.exe",
 			"enable": true,
-			"env":
-			{
-			},
+			"env": {},
 			"name": "PowerShell Core",
-			"platforms":
-			[
-				"windows"
-			]
+			"platforms": ["windows"]
 		},
 		{
 			"cmd": "powershell.exe",
 			"enable": true,
-			"env":
-			{
-			},
+			"env": {},
 			"name": "PowerShell",
-			"platforms":
-			[
-				"windows"
-			]
+			"platforms": ["windows"]
 		},
 		{
-			"cmd":
-			[
-				"cmd.exe",
-				"/k",
-				"%CMDER_ROOT%\\vendor\\init.bat"
-			],
+			"cmd": ["cmd.exe", "/k", "%CMDER_ROOT%\\vendor\\init.bat"],
 			"enable": false,
-			"env":
-			{
-			},
+			"env": {},
 			"name": "Cmder",
-			"platforms":
-			[
-				"windows"
-			]
+			"platforms": ["windows"]
 		},
 		{
 			"cmd": "wsl.exe",
 			"enable": true,
-			"env":
-			{
-			},
+			"env": {},
 			"name": "WSL Login Shell",
-			"platforms":
-			[
-				"windows"
-			]
+			"platforms": ["windows"]
 		}
 	],
 	"unix_lang": "en_US.UTF-8",
 	"unix_term": "linux",
-	"user_theme_colors":
-	{
+	"user_theme_colors": {
 		"00": "#000000",
 		"01": "#ff2e58",
-		"02": "#28CC79",
+		"02": "#262626",
 		"03": "#A0DA2F",
 		"04": "#36CBE6",
 		"05": "#a366ff",
 		"06": "#42b7ff",
 		"07": "#262626",
-		"08": "#7f7f7f",
+		"08": "#ff4775",
 		"09": "#FF6351",
-		"10": "#00ff00",
+		"10": "#28CC79",
 		"11": "#FFFF4D",
 		"12": "#5c5cff",
 		"13": "#ff4775",
@@ -146,7 +89,5 @@
 		"selection": "#444444",
 		"selection_foreground": "#ffffff"
 	},
-	"view_settings":
-	{
-	}
+	"view_settings": {}
 }

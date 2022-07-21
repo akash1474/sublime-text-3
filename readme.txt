@@ -20,9 +20,15 @@
 4]Save the file and restart Sublime Test
 
 
+///////////////////  LSP Clangd(c/c++)  /////////////////////////
+install the LSP package
+pip install compiledb
+compiledb -- used to generate compile_commands.json file used by clangd and LSP
+run command ---     compiledb -c make    ---- compile_commands.json file will be generated
+now start the sublime text
 
 //////////////////   Extensions    /////////////////////
-
+========>>>> check the package-list.png for all latest package usage
 1]A File Icon
 2]Anaconda -- Python Development
 3]Babel -- Javascript
@@ -30,6 +36,7 @@
 5]ReactJs
 6]Typescript
 7]Emmet
+8]LSP
 
 
 /////////////// Selection Color /////////////////////
