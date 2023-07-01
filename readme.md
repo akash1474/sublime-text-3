@@ -8,7 +8,7 @@
 
 
 ### Key Binding Setup
-1. `Preference` => `Package Settings` => `Terminus` => `Key Bindings`
+1. `Preference` » `Package Settings` » `Terminus` » `Key Bindings`
 2. In right tab paste code from **terminusKeyBindings.js**
 3. Save the file and restart Sublime Text
 
@@ -17,7 +17,7 @@
 ### Sublime Settings
 
 1]Install fonts from fonts folder
-2]Goto Preferences => Settings
+2]Goto Preferences » Settings
 3]Copy code from settings.json and paste it in Preference.sublime-Settings --User
 4]Save the file and restart Sublime Test
 
@@ -43,7 +43,7 @@
 
 ### Selection Color
 1. Install package resource viewer
-2. `ctrl + shift +v `» `search prv` => `package resource viewer : open resources` => `search color scheme` => `themes` =>
+2. `ctrl + shift +v `» `search prv` » `package resource viewer : open resources` » `search color scheme` » `themes` »
 
 
 ## Premake5 Visual Studio 2022 setup for c++ development
