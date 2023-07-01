@@ -1,93 +1,16 @@
 {
-	"color_scheme": "gruvbox (Dark) (Hard).sublime-color-scheme",
-	"font_face": "MonoLisa-Medium",
-	"font_size": 9,
-	"ignored_packages":
-	[
-		// "Vintage",
-/*"C++11",*/
-/*"Terminus",*/
-/*"C++ Starting Kit",*/
-/*"C++11",*/
-/*"Emmet",*/
-/*"Emmet",*/
-/*"Anaconda",*/
-/*"A File Icon",*/
-/*"Terminus",*/
-/*"Solarized Color Scheme",*/
-/*"A File Icon",*/
-/*"Dracula Color Scheme",*/
-/*"JsPrettier",*/
-/*"A File Icon",*/
-/*"CMake",*/
-/*"Formatter",*/
-/*"Clang Format",*/
-/*"C++11",*/
-/*"C++ Starting Kit",*/
-/*"ToDone",*/
-/*"ToDone",*/
-/*"Monokai++",*/
-/*"Anaconda",*/
-/*"Anaconda",*/
-/*"ayu",*/
-/*"Oceanic Color Scheme",*/
-/*"Oceanic Next Color Scheme",*/
-/*"Agila Theme",*/
-/*"Agila Theme",*/
-/*"Dracula Color Scheme",*/
-/*"Oceanic Next Color Scheme",*/
-/*"Visual Studio Dark",*/
-/*"Visual Studio Code Plus Scheme",*/
-/*"Visual Studio Dark",*/
-/*"Visual studio code",*/
-/*"TypeScript",*/
-/*"JsPrettier",*/
-/*"C++11",*/
-/*"C++ Completions",*/
-/*"C++ Snippets",*/
-/*"C++ Snippets",*/
-/*"C++ Completions",*/
-/*"Tabnine",*/
-/*"Tabnine",*/
-/*"C++ Classhelper",*/
-/*"0_package_control_loader",*/
-/*"C++ Classhelper",*/
-/*"Terminal",*/
-/*"AutoFileName",*/
-/*"AutoFileName",*/
-/*"Dart",*/
-/*"Dartlight",*/
-/*"Oceanic Color Scheme",*/
-/*"WLST",*/
-/*"Theme - One",*/
-/*"All Autocomplete",*/
-/*"All Autocomplete",*/
-/*"SideBarEnhancements",*/
-/*"SideBarEnhancements",*/
-/*"BracketHighlighter",*/
-/*"JsPrettier",*/
-/*"C Improved",*/
-/*"JsPrettier",*/
-/*"HexViewer",*/
-/*"JsPrettier",*/
-/*"MarkdownPreview",*/
-/*"Terminus",*/
-/*"JsPrettier",*/
-/*"Terminus",*/
-/*"Monokai++",*/
-/*"Monokai++",*/
-/*"Theme - One",*/
-/*"A File Icon",*/
-/*"Theme - One",*/
-/*"LSP",*/
+	"ignored_packages":[
 	],
-    //"vintage_ctrl_keys": true,
-	"line_numbers": true,
-	"line_padding_bottom": 1,
-	"line_padding_top": 2,
-	"margin": 4,
-	"scroll_speed": 0.5,
+	"font_size":9,
+	"font_face":"MonoLisa-Medium",
 	"theme": "Adaptive.sublime-theme",
+	"color_scheme": "gruvbox (Dark) (Hard).sublime-color-scheme",
+	"line_numbers": true,
+	"line_padding_bottom": 3,
+	"line_padding_top" :3,
+	"margin": 4,
+	"ui_scale":1.0,
+	"scroll_speed": 0.5,
 	"auto_complete": true,
 	"auto_complete_triggers":
 	[
